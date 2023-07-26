@@ -14,4 +14,4 @@ def index():
     return render_template("index.html",cpu_percent=cpu_percent,mem_percent=memory_percent,message=Message)
 
 if '__main__' == __name__:
-    app.run(host='0.0.0.0',debug=True,port=5001)
+    app.run(host='0.0.0.0',debug=True,port=5000)
